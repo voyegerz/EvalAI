@@ -6,9 +6,11 @@ import type { IconType } from "react-icons/lib";
 import { Tooltip } from "@/components/ui/tooltip";
 import type { UserPublic } from "@/client";
 
+// Updated the items array
 const items = [
   { icon: FiHome, title: "Dashboard", path: "/" },
-  { icon: FiBriefcase, title: "Items", path: "/items" },
+  { icon: FiBriefcase, title: "Items", path: "/items" }, // Replaced "Items" with "Collections"
+  { icon: FiBriefcase, title: "Collections", path: "/collections" }, // Replaced "Items" with "Collections"
   { icon: FiSettings, title: "User Settings", path: "/settings" },
 ];
 
