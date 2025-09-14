@@ -20,6 +20,8 @@ import { Route as LayoutIndexImport } from './routes/_layout/index'
 import { Route as LayoutSettingsImport } from './routes/_layout/settings'
 import { Route as LayoutItemsImport } from './routes/_layout/items'
 import { Route as LayoutAdminImport } from './routes/_layout/admin'
+import { Route as LayoutCollectionsIndexImport } from './routes/_layout/collections/index'
+import { Route as LayoutCollectionsCollectionsCollectionIdImport } from './routes/_layout/collections/collections.$collectionId'
 
 // Create/Update Routes
 
@@ -68,6 +70,17 @@ const LayoutAdminRoute = LayoutAdminImport.update({
   getParentRoute: () => LayoutRoute,
 } as any)
 
+const LayoutCollectionsIndexRoute = LayoutCollectionsIndexImport.update({
+  path: '/collections/',
+  getParentRoute: () => LayoutRoute,
+} as any)
+
+const LayoutCollectionsCollectionsCollectionIdRoute =
+  LayoutCollectionsCollectionsCollectionIdImport.update({
+    path: '/collections/collections/$collectionId',
+    getParentRoute: () => LayoutRoute,
+  } as any)
+
 // Populate the FileRoutesByPath interface
 
 declare module '@tanstack/react-router' {
@@ -108,6 +121,14 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof LayoutIndexImport
       parentRoute: typeof LayoutImport
     }
+    '/_layout/collections/': {
+      preLoaderRoute: typeof LayoutCollectionsIndexImport
+      parentRoute: typeof LayoutImport
+    }
+    '/_layout/collections/collections/$collectionId': {
+      preLoaderRoute: typeof LayoutCollectionsCollectionsCollectionIdImport
+      parentRoute: typeof LayoutImport
+    }
   }
 }
 
@@ -119,6 +140,8 @@ export const routeTree = rootRoute.addChildren([
     LayoutItemsRoute,
     LayoutSettingsRoute,
     LayoutIndexRoute,
+    LayoutCollectionsIndexRoute,
+    LayoutCollectionsCollectionsCollectionIdRoute,
   ]),
   LoginRoute,
   RecoverPasswordRoute,
