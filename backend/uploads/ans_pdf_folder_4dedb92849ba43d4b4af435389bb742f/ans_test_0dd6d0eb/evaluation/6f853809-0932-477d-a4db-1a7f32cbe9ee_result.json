@@ -1,0 +1,8 @@
+[
+    {
+        "question_no": "3.1",
+        "obtained_marks": 4,
+        "max_marks": 5,
+        "feedback": "The code has a minor syntax error.  The variable \\$result is misspelled as \\$reunt in the echo statement.  Also, the multiplication table is for the number 6, not 5 as specified in the code.  Otherwise, the logic is correct."
+    }
+]

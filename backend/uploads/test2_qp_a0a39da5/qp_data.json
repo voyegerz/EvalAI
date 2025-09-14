@@ -1,0 +1,220 @@
+{
+    "exam_details": {
+        "name": "CONTINUOUS EVALUATION TEST (CET) - 1",
+        "course_code": "C4361S1",
+        "marks": 30,
+        "date": "23-08-2025",
+        "time": "08:30am to 10:00am"
+    },
+    "sections": [
+        {
+            "section_name": "Q1. Objective Question MCQ with four options",
+            "instructions": null,
+            "questions": [
+                {
+                    "question_number": 1,
+                    "question_text": "implode() functiondoes what?",
+                    "question_type": "mcq",
+                    "options": [
+                        "Joins array into string",
+                        "Splits string into array",
+                        "Merges arrays",
+                        "None"
+                    ],
+                    "correct_answer": "a",
+                    "max_marks": 1
+                },
+                {
+                    "question_number": 2,
+                    "question_text": "Keyword to create functionin PHP:",
+                    "question_type": "mcq",
+                    "options": [
+                        "func",
+                        "function",
+                        "define",
+                        "method"
+                    ],
+                    "correct_answer": "b",
+                    "max_marks": 1
+                },
+                {
+                    "question_number": 3,
+                    "question_text": "Which function returns array keys?",
+                    "question_type": "mcq",
+                    "options": [
+                        "array_keys()",
+                        "keys()",
+                        "get_keys()",
+                        "key_array()"
+                    ],
+                    "correct_answer": "a",
+                    "max_marks": 1
+                },
+                {
+                    "question_number": 4,
+                    "question_text": "Which function is used to split a string into an array?",
+                    "question_type": "mcq",
+                    "options": [
+                        "split()",
+                        "explode()",
+                        "implode()",
+                        "array_split()"
+                    ],
+                    "correct_answer": "b",
+                    "max_marks": 1
+                },
+                {
+                    "question_number": 5,
+                    "question_text": "Sort array in ascending order by value:",
+                    "question_type": "mcq",
+                    "options": [
+                        "sort()",
+                        "asort()",
+                        "ksort()",
+                        "rsort()"
+                    ],
+                    "correct_answer": "b",
+                    "max_marks": 1
+                },
+                {
+                    "question_number": 6,
+                    "question_text": "Which function removes the last element from an array?",
+                    "question_type": "mcq",
+                    "options": [
+                        "pop_array()",
+                        "array_pop()",
+                        "remove_last()",
+                        "end()"
+                    ],
+                    "correct_answer": "b",
+                    "max_marks": 1
+                },
+                {
+                    "question_number": 7,
+                    "question_text": "Which function searches an array for a value and returns its key?",
+                    "question_type": "mcq",
+                    "options": [
+                        "array_search()",
+                        "search_array()",
+                        "in_array()",
+                        "find_key()"
+                    ],
+                    "correct_answer": "a",
+                    "max_marks": 1
+                },
+                {
+                    "question_number": 8,
+                    "question_text": "Which symbol is used to pass arguments by reference?",
+                    "question_type": "mcq",
+                    "options": [
+                        "&"
+                    ],
+                    "correct_answer": "b",
+                    "max_marks": 1
+                },
+                {
+                    "question_number": 9,
+                    "question_text": "Which keyword imports global variables into functions?",
+                    "question_type": "mcq",
+                    "options": [
+                        "global",
+                        "import",
+                        "extern",
+                        "use"
+                    ],
+                    "correct_answer": "a",
+                    "max_marks": 1
+                },
+                {
+                    "question_number": 10,
+                    "question_text": "Which of the following is NOT a feature of PHP?",
+                    "question_type": "mcq",
+                    "options": [
+                        "Open Source",
+                        "Platform Independent",
+                        "Requires Compilation before running",
+                        "Embedded in HTML"
+                    ],
+                    "correct_answer": "c",
+                    "max_marks": 1
+                }
+            ]
+        },
+        {
+            "section_name": "Q2. Answer any TWO (out of four)",
+            "instructions": "Answer any TWO (out of four)",
+            "questions": [
+                {
+                    "question_number": 1,
+                    "question_text": "List all conditional statement, control structures and write and example for foreach loop ?",
+                    "question_type": "long_answer",
+                    "options": [],
+                    "correct_answer": null,
+                    "max_marks": 5
+                },
+                {
+                    "question_number": 2,
+                    "question_text": "List and explain different data types in PHP.",
+                    "question_type": "long_answer",
+                    "options": [],
+                    "correct_answer": null,
+                    "max_marks": 5
+                },
+                {
+                    "question_number": 3,
+                    "question_text": "List type of Arrays in PHP along with each example?",
+                    "question_type": "long_answer",
+                    "options": [],
+                    "correct_answer": null,
+                    "max_marks": 5
+                },
+                {
+                    "question_number": 4,
+                    "question_text": "Explain the process of declaring, passing parameters, and returning values from a PHP function with an example?",
+                    "question_type": "long_answer",
+                    "options": [],
+                    "correct_answer": null,
+                    "max_marks": 5
+                }
+            ]
+        },
+        {
+            "section_name": "Q3. Answer any TWO (out of four)",
+            "instructions": "Answer any TWO (out of four)",
+            "questions": [
+                {
+                    "question_number": 1,
+                    "question_text": "Write a PHP program to print the multiplication table of a given number?",
+                    "question_type": "long_answer",
+                    "options": [],
+                    "correct_answer": null,
+                    "max_marks": 5
+                },
+                {
+                    "question_number": 2,
+                    "question_text": "Write a PHP program to demonstrate any 3 arithmetic operators on two numbers?",
+                    "question_type": "long_answer",
+                    "options": [],
+                    "correct_answer": null,
+                    "max_marks": 5
+                },
+                {
+                    "question_number": 3,
+                    "question_text": "Explain any four PHP operators with examples ?",
+                    "question_type": "long_answer",
+                    "options": [],
+                    "correct_answer": null,
+                    "max_marks": 5
+                },
+                {
+                    "question_number": 4,
+                    "question_text": "Write a PHP program to accept a number from the user and check whether it is even or odd using a conditional statement.",
+                    "question_type": "long_answer",
+                    "options": [],
+                    "correct_answer": null,
+                    "max_marks": 5
+                }
+            ]
+        }
+    ]
+}
