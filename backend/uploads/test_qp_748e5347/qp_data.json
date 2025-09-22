@@ -1,0 +1,25 @@
+{
+    "exam_details": {
+        "name": null,
+        "course_code": null,
+        "marks": null,
+        "date": null,
+        "time": null
+    },
+    "sections": [
+        {
+            "section_name": null,
+            "instructions": null,
+            "questions": [
+                {
+                    "question_number": 2,
+                    "question_text": "I-\u00f8 x-men has 350 Primary 1050 Secondary winding, Primary is connected to 400V 50Hz Ac of net cross-sectional Area of core is 50cm\u00b2. calculate max flux density of induced EMF in Secondary winding.",
+                    "question_type": "long_answer",
+                    "options": [],
+                    "correct_answer": null,
+                    "max_marks": 10
+                }
+            ]
+        }
+    ]
+}

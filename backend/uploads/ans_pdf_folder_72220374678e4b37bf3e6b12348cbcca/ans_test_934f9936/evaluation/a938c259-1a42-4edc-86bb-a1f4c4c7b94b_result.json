@@ -1,0 +1,8 @@
+[
+    {
+        "question_no": "2.2",
+        "obtained_marks": 4,
+        "max_marks": 5,
+        "feedback": "Good attempt.  You have correctly identified and provided examples for Integer, Float/Double, String, Boolean, Array, and Null data types.  To get full marks, ensure you explain each data type briefly in addition to providing examples."
+    }
+]

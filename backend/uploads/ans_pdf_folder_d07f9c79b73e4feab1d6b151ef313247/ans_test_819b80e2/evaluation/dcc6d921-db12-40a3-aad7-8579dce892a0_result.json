@@ -1,0 +1,8 @@
+[
+    {
+        "question_no": "3.1",
+        "obtained_marks": 4,
+        "max_marks": 5,
+        "feedback": "Good attempt. Minor syntax error in the code.  The multiplication table is not correctly generated due to the use of `$i` instead of `$i` in the `$result` calculation and also the `$result` variable is not properly used in the echo statement.  Please review the for loop syntax and variable usage."
+    }
+]

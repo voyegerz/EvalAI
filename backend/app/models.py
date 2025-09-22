@@ -162,6 +162,12 @@ class AnsPdf(AnsPdfBase, table=True):
     ans_pdf_folder_id: uuid.UUID = Field(foreign_key="anspdffolder.id", nullable=False)
     filepath: str
     folder_path: str
+    uploaded_at: datetime = Field(
+        default_factory=lambda: datetime.now(timezone.utc),
+        nullable=False
+    )
+    
+    is_evaluated: bool = Field(default=False, nullable=False)
 
     # Relationships
     ans_pdf_folder: "AnsPdfFolder" = Relationship(back_populates="ans_pdfs")
@@ -177,6 +183,7 @@ class AnsPdfPublic(AnsPdfBase):
     ans_pdf_folder_id: uuid.UUID
     filepath: str
     folder_path: str
+    is_evaluated: bool
 
 class AnsPdfsPublic(SQLModel):
     data: list[AnsPdfPublic]

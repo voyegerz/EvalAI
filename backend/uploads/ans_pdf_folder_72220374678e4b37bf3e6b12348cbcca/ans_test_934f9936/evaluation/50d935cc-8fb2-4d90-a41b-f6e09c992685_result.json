@@ -1,0 +1,8 @@
+[
+    {
+        "question_no": "3.1",
+        "obtained_marks": 4,
+        "max_marks": 5,
+        "feedback": "The code is mostly correct, but there's a small error in the echo statement and the variable name 'presult' should be 'result'.  Also, the loop should iterate up to 10, not 16."
+    }
+]

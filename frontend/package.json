@@ -8,7 +8,8 @@
     "build": "tsc -p tsconfig.build.json && vite build",
     "lint": "biome check --apply-unsafe --no-errors-on-unmatched --files-ignore-unknown=true ./",
     "preview": "vite preview",
-    "generate-client": "openapi-ts"
+    "generate-client": "openapi-ts",
+    "postinstall": "cp node_modules/pdfjs-dist/build/pdf.worker.min.mjs public/"
   },
   "dependencies": {
     "@chakra-ui/react": "^3.8.0",
@@ -23,7 +24,8 @@
     "react-dom": "^18.2.0",
     "react-error-boundary": "^5.0.0",
     "react-hook-form": "7.49.3",
-    "react-icons": "^5.5.0"
+    "react-icons": "^5.5.0",
+    "react-pdf": "^10.1.0"
   },
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
@@ -31,7 +33,10 @@
     "@playwright/test": "^1.52.0",
     "@tanstack/router-devtools": "1.19.1",
     "@tanstack/router-vite-plugin": "1.19.0",
-    "@types/node": "^22.15.3",
+    "@types/estree": "^1.0.8",
+    "@types/json-schema": "^7.0.15",
+    "@types/node": "^22.18.3",
+    "@types/prop-types": "^15.7.15",
     "@types/react": "^18.2.37",
     "@types/react-dom": "^18.2.15",
     "@vitejs/plugin-react-swc": "^3.9.0",

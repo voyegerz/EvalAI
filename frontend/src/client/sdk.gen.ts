@@ -123,7 +123,7 @@ export class DownloadService {
      * Retrieves and serves the actual PDF file for a given AnsPdf ID.
      * @param data The data for the request.
      * @param data.ansPdfId
-     * @returns unknown Successful Response
+     * @returns unknown The PDF file of the answer sheet.
      * @throws ApiError
      */
     public static downloadAnsPdf(data: DownloadDownloadAnsPdfData): CancelablePromise<DownloadDownloadAnsPdfResponse> {
@@ -144,7 +144,7 @@ export class DownloadService {
      * Retrieves and serves the most recently uploaded QpPdf for a given collection.
      * @param data The data for the request.
      * @param data.collectionId
-     * @returns unknown Successful Response
+     * @returns unknown The PDF file of the question paper.
      * @throws ApiError
      */
     public static downloadQppdfByCollection(data: DownloadDownloadQppdfByCollectionData): CancelablePromise<DownloadDownloadQppdfByCollectionResponse> {
